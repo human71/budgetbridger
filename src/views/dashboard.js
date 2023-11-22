@@ -18,9 +18,10 @@ const Dashboard = (props) => {
             <Link to="/" className="dashboard-navlink">
               <img alt="image" src="/logo.svg" className="dashboard-image" />
             </Link>
+            <div className="dashboard-logo"></div>
           </div>
           <div className="dashboard-links">
-            <Link to="/" className="dashboard-navlink1">
+            <Link to="/dashboard" className="dashboard-navlink1">
               <div className="dashboard-container02">
                 <img
                   alt="image"
@@ -51,11 +52,6 @@ const Dashboard = (props) => {
               </div>
             </Link>
             <img alt="image" src="/dp-200h.png" className="dashboard-image4" />
-          </div>
-          <div className="dashboard-burger-menu navbar-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="dashboard-icon">
-              <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-            </svg>
           </div>
         </div>
       </div>
@@ -101,14 +97,16 @@ const Dashboard = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="dashboard-container15">
-                <img
-                  alt="image"
-                  src="/uilrefresh.svg"
-                  className="dashboard-image8"
-                />
-                <span className="dashboard-text11">Create Expense</span>
-              </div>
+              <Link to="/create" className="dashboard-navlink4">
+                <div className="dashboard-container15">
+                  <img
+                    alt="image"
+                    src="/uilrefresh.svg"
+                    className="dashboard-image8"
+                  />
+                  <span className="dashboard-text11">Create Expense</span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

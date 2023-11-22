@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import './create.css'
@@ -42,11 +41,6 @@ const Create = (props) => {
             </Link>
             <img alt="image" src="/dp-200h.png" className="create-image4" />
           </div>
-          <div className="create-burger-menu navbar-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="create-icon">
-              <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-            </svg>
-          </div>
         </div>
       </div>
       <div className="create-section section-container">
@@ -74,19 +68,6 @@ const Create = (props) => {
               <div className="create-container11">
                 <span className="create-text7">Report Cost *</span>
                 <input type="text" required className="create-input2 input" />
-              </div>
-              <span className="create-text8">Upload Bills</span>
-              <div className="create-container12">
-                <div className="create-container13">
-                  <Script
-                    html={`<link rel="stylesheet" href="https://unpkg.com/@adminkit/core@latest/dist/css/app.css">
-<script src="https://unpkg.com/@adminkit/core@latest/dist/js/app.js"></script>
-
-<div class="mb-3">
-  <input class="form-control form-control-lg" type="file" id="formFileMultiple" multiple>
-</div>`}
-                  ></Script>
-                </div>
               </div>
             </div>
             <Link to="/dashboard" className="create-navlink4 button">

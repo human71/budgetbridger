@@ -39,11 +39,6 @@ const Home = (props) => {
               Log in
             </Link>
           </div>
-          <div className="home-burger-menu navbar-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="home-icon">
-              <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-            </svg>
-          </div>
         </div>
       </div>
       <div className="home-headbody section-container">

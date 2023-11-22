@@ -1,12 +1,14 @@
 .login-container {
   width: 100%;
   display: flex;
+  overflow: hidden;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
 .login-navbar {
   height: 71px;
+  position: relative;
   background-color: #0076a8;
 }
 .login-logo {
@@ -32,21 +34,16 @@
   align-items: center;
   flex-direction: row;
 }
-.login-navlink1 {
+.login-link {
   display: contents;
 }
-.login-container1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  text-decoration: none;
-}
 .login-image1 {
-  width: 15px;
+  width: 8%;
   height: 8%;
   align-self: center;
   object-fit: cover;
   padding-bottom: 5px;
+  text-decoration: none;
 }
 .login-text {
   color: rgb(255, 255, 255);
@@ -59,9 +56,8 @@
   margin-right: var(--dl-space-space-twounits);
   text-transform: none;
   text-decoration: none;
-  background-color: rgba(217, 217, 217, 0);
 }
-.login-navlink2 {
+.login-navlink1 {
   color: rgb(0, 118, 168);
   height: 39px;
   font-size: 16px;
@@ -72,13 +68,8 @@
   border-radius: 0px;
   text-decoration: none;
 }
-.login-burger-menu {
-  fill: #105749;
-  width: 24px;
-  height: 24px;
-}
 .login-section {
-  height: 693px;
+  height: 580px;
   align-items: center;
   padding-top: 0px;
   flex-direction: row;
@@ -86,7 +77,7 @@
   justify-content: center;
   background-color: #f5f5f5;
 }
-.login-container2 {
+.login-container1 {
   flex: 0 0 auto;
   width: auto;
   height: 665px;
@@ -94,19 +85,19 @@
   align-items: center;
   justify-content: center;
 }
-.login-container3 {
+.login-container2 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.login-container4 {
+.login-container3 {
   width: 466px;
   height: 507px;
   display: flex;
   align-self: flex-start;
   box-shadow: 0px 8px 53px 0px #d4d4d4,0px 4px 9px 0px #d4d4d4;
-  margin-top: var(--dl-space-space-fiveunits);
+  margin-top: var(--dl-space-space-twounits);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius16);
   flex-direction: column;
@@ -166,7 +157,7 @@
   border-right-width: 0px;
   border-bottom-width: 1px;
 }
-.login-navlink3 {
+.login-navlink2 {
   color: #ffffff;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
@@ -184,19 +175,16 @@
   font-weight: 300;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.login-link {
+.login-link1 {
   text-decoration: underline;
 }
 @media(max-width: 767px) {
   .login-links {
     display: none;
   }
-  .login-icon {
-    fill: #ffffff;
-  }
 }
 @media(max-width: 479px) {
-  .login-container4 {
+  .login-container3 {
     width: 387px;
   }
   .login-text2 {

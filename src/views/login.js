@@ -20,31 +20,31 @@ const Login = (props) => {
             </Link>
           </div>
           <div className="login-links">
-            <Link to="/" className="login-navlink1">
-              <div className="login-container1">
-                <img alt="image" src="/vector1.svg" className="login-image1" />
-                <span className="login-text">Home</span>
-              </div>
+            <a
+              href="https://#"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="login-link"
+            >
+              <img alt="image" src="/vector1.svg" className="login-image1" />
+            </a>
+            <Link to="/" className="login-text">
+              Home
             </Link>
             <Link
               to="/login"
-              className="login-navlink2 button-secondary button"
+              className="login-navlink1 button-secondary button"
             >
               Log in
             </Link>
           </div>
-          <div className="login-burger-menu navbar-burger-menu">
-            <svg viewBox="0 0 1024 1024" className="login-icon">
-              <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-            </svg>
-          </div>
         </div>
       </div>
       <div className="login-section section-container">
-        <div className="login-container2">
-          <div className="login-container3"></div>
+        <div className="login-container1">
+          <div className="login-container2"></div>
         </div>
-        <div className="login-container4">
+        <div className="login-container3">
           <span className="login-text1">Sign In</span>
           <span className="login-text2">
             Please login with your Mathworks credentials to continue
@@ -68,7 +68,7 @@ const Login = (props) => {
               placeholder="Password"
               className="login-textinput input"
             />
-            <Link to="/dashboard" className="login-navlink3 button">
+            <Link to="/dashboard" className="login-navlink2 button">
               LOGIN
             </Link>
           </form>
@@ -85,7 +85,7 @@ const Login = (props) => {
               href="https://mathworks.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="login-link"
+              className="login-link1"
             >
               Adminstration
             </a>
